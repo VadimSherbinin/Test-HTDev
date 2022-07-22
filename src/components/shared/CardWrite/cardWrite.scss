@@ -1,0 +1,29 @@
+.card-write {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 15px 24px;
+  max-width: calc(50% - 60px);
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 3px #000000;
+
+  &__sign {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+
+  &__sign-number {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+
+  &__date {
+    font-size: 14px;
+    margin-bottom: 10px;
+    opacity: 0.6;
+  }
+
+  &__desc {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+}
